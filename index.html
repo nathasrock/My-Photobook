@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f1e9">
+  <title>My Memories | Digital Photobook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">My Memories<span>.</span></a>
+    <span class="nav-caption">A COLLECTION OF MOMENTS</span>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">MY PERSONAL PHOTOBOOK</p>
+      <h1>Every picture tells<br>a beautiful story.</h1>
+      <p class="subtitle">
+        A little book filled with moments worth remembering.
+      </p>
+    </section>
+
+    <section class="book-section">
+      <div class="book-container">
+        <div class="book" id="book">
+
+          <!-- FRONT COVER -->
+          <div class="sheet cover-sheet">
+            <div class="face front cover">
+              <div class="cover-content">
+                <span class="cover-small">A COLLECTION OF</span>
+                <h2>My<br>Memories</h2>
+                <div class="cover-line"></div>
+                <p>Little moments, forever remembered.</p>
+                <span class="cover-year">EST. 2026</span>
+              </div>
+            </div>
+            <div class="face back paper">
+              <p class="page-number">01</p>
+              <p class="quote">
+                "The best things in life are the moments
+                we wish we could live twice."
+              </p>
+            </div>
+          </div>
+
+          <!-- MEMORY PAGES -->
+          <div class="sheet">
+            <div class="face front paper">
+              <p class="page-number">02</p>
+              <div class="memory-content">
+                <span class="memory-label">MEMORY NO. 01</span>
+                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000" alt="Golden sunrise">
+                <h3>Golden Mornings</h3>
+                <p>Some mornings remind us how beautiful a new beginning can be.</p>
+                <span class="memory-date">A MOMENT TO REMEMBER</span>
+              </div>
+            </div>
+            <div class="face back paper">
+              <p class="page-number">03</p>
+              <div class="memory-content">
+                <span class="memory-label">MEMORY NO. 02</span>
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1000" alt="Beautiful mountain lake">
+                <h3>Somewhere Beautiful</h3>
+                <p>Collecting places, little adventures, and unforgettable views.</p>
+                <span class="memory-date">A MOMENT TO REMEMBER</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet">
+            <div class="face front paper">
+              <p class="page-number">04</p>
+              <div class="memory-content">
+                <span class="memory-label">MEMORY NO. 03</span>
+                <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=1000" alt="Sunset landscape">
+                <h3>Chasing Sunsets</h3>
+                <p>Watching the sky change colors and wishing time would slow down.</p>
+                <span class="memory-date">A MOMENT TO REMEMBER</span>
+              </div>
+            </div>
+            <div class="face back paper">
+              <p class="page-number">05</p>
+              <div class="memory-content">
+                <span class="memory-label">MEMORY NO. 04</span>
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1000" alt="Nature adventure">
+                <h3>Little Adventures</h3>
+                <p>Not every journey needs a destination. Sometimes the journey is enough.</p>
+                <span class="memory-date">A MOMENT TO REMEMBER</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINAL PAGE -->
+          <div class="sheet">
+            <div class="face front paper final-page">
+              <p class="page-number">06</p>
+              <div>
+                <span class="memory-label">UNTIL NEXT TIME</span>
+                <h2>More memories<br>to come.</h2>
+                <p>Life is made of little moments. Keep collecting them.</p>
+                <div class="cover-line"></div>
+                <span class="memory-date">WITH LOVE, ALWAYS.</span>
+              </div>
+            </div>
+            <div class="face back cover back-cover">
+              <h2>The End.</h2>
+              <p>For now, anyway.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn" class="nav-btn" disabled>
+          ? Previous
+        </button>
+
+        <span id="pageIndicator">Cover</span>
+
+        <button id="nextBtn" class="nav-btn">
+          Next ?
+        </button>
+      </div>
+
+      <p class="instruction">
+        Click next or previous to turn the pages.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with love. © 2026 My Memories.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
